@@ -3,10 +3,8 @@
 def my_each(array)
   i = 0
    while i < 10
-   
-      yield (array[i])
-     
-      i =+ 1
+    yield (array[i])
+    i =+ 1
     end 
   end 
   

@@ -7,4 +7,5 @@ def my_each(array)
   end 
   
   my_each(array) do |item|
-    
+    if name.length == 3
+      print 

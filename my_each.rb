@@ -2,9 +2,8 @@ def my_each
 
   i = 1
   j = 2
-  yield
+  yield(i, j)
 
- 
 end
 
 my_each do |x, y| 

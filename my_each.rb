@@ -9,10 +9,10 @@ def my_each(collection)
     i = i + 1
    end 
  
- else 
+  else 
    p "This block should not run!"
  
- end 
+  end 
 
 end 
   

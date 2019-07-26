@@ -2,7 +2,7 @@ def my_each
 
   i = 1
   j = 2
-  yield(i, j)
+  yield
 
  
 end

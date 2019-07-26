@@ -9,3 +9,5 @@ def my_each(array)
   my_each(array) do |item|
     if item.length(3)
       print "#{item}"
+    end 
+  end 

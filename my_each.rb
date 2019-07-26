@@ -4,7 +4,7 @@ def my_each
   j = 2
   yield(i, j)
 
- end
+ 
 end
 
 my_each { |x, y| puts x }

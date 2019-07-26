@@ -5,7 +5,7 @@ def my_each(collection)
    while i < 10
     yield (collection[i])
     i = i + 1
-    end 
+   end 
   end 
   
   

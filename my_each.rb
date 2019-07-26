@@ -2,7 +2,7 @@
 
 def my_each(collection)
    i = 0
-   while i < 10
+   while i < 4
     yield (collection[i])
     i = i + 1
    end 

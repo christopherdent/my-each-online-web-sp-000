@@ -5,3 +5,5 @@ def my_each
     end 
     
   end 
+  
+  my_each do 

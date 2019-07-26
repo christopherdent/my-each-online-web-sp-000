@@ -1,17 +1,17 @@
 
 
-def my_each(array)
-  i = 0
+def my_each(collection)
+   i = 0
    while i < 10
-    yield (array[i])
+    yield (collection[i])
     i = i + 1
     end 
   end 
   
   
- array = ["Joe", "Sam", "Ghandi", "Mojo"] 
+ 
   
-  my_each(array) do |item|
-    print "#{item}"
-    end 
-   
+ collection = [1, 2, 3, 4]
+my_each(collection) do |i|
+  puts i
+end

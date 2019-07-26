@@ -5,11 +5,11 @@ def my_each(array)
   
   while c < array.length
   yield (array[c])
-  
-  
   c += 1 
   
 end
 
 
-my_each(array) do
+my_each(array) do |c|
+  puts c
+end 

@@ -4,6 +4,8 @@ def my_each(array)
   c = 0 
   
   while c < array.length
+  
+  
   c += 1 
   
 end

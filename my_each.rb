@@ -11,7 +11,7 @@ def my_each(collection)
    end 
  
  else 
-   return "This block should not run!"
+   p "This block should not run!"
  
  end 
 
@@ -22,5 +22,5 @@ end
   
 collection = [1, 2, 3, 4]
   my_each(collection) do |i|
-    print i
+    p i
 end

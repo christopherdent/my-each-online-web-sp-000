@@ -16,4 +16,4 @@ def my_each(array)
   my_each(array) do |item|
     print "#{item}"
     end 
-  end 
+   

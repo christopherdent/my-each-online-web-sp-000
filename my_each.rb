@@ -24,4 +24,4 @@ collection = [1, 2, 3, 4]
     p i
 end
 
-collection.clone
+collection

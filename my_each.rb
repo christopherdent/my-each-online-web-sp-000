@@ -13,7 +13,7 @@ def my_each(array)
   
  array = ["Joe", "Sam", "Ghandi", "Mojo"] 
   
-  my_each(array) do |item|
+  my_each(["Joe", "Sam", "Ghandi", "Mojo"]) do |item|
     if item.length(3)
       print "#{item}"
     end 

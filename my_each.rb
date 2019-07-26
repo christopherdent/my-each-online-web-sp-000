@@ -10,7 +10,7 @@ def my_each(collection)
     i = i + 1
    end 
  else 
-   This block should not run!
+   puts "This block should not run!"
  end 
 end 
   

@@ -7,5 +7,7 @@ def my_each
  
 end
 
-my_each { |x, y| puts x }
+my_each do |x, y| 
+  puts x 
+end 
 my_each

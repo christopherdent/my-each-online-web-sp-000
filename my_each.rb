@@ -8,7 +8,7 @@ def my_each(collection)
     yield (collection[i])
     i = i + 1
    end 
- 
+ collection 
   else 
    p "This block should not run!"
  
@@ -24,4 +24,3 @@ collection = [1, 2, 3, 4]
     p i
 end
 
-collection

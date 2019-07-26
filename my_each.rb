@@ -3,7 +3,7 @@ if block_given?
   i = 1
   j = 2
   yield(i, j)
- else puts “magick”
+ else puts "magic"
  end
 end
 

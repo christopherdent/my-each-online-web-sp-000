@@ -1,17 +1,11 @@
-array = [1, 2, 3, 4, 5]
-
-def my_each(array)
-  # code here
-  
-  c = 0 
-  
-  while c < array.length
-  yield (array[c])
-  c += 1 
-  
+def aliens
+if block_given?
+  i = 1
+  j = 2
+  yield(i, j)
+ else puts “magick”
+ end
 end
 
-
-my_each(array) do |c|
-  puts c
-end 
+aliens { |x, y| puts x }
+aliens
